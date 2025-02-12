@@ -4,9 +4,9 @@ for topping in toppings:
     print(f"{topping.title()} pizza is delicious!")
 print("I could eat them all")
 
-print(f"The first three toppings were {toppings[:3]}")
-print(f"The middle three toppings were {toppings[1:4]}")
-print(f"The last three toppings were {toppings[-3:]}")
+print('The first three toppings were %s' % (toppings[:3]))
+print('The middle three toppings were %s' % (toppings[1:4]))
+print('The last three toppings were %s' % (toppings[-3:]))
 
 friend_toppings = toppings[:]
 toppings.append(input("What other topping do I like? "))
